@@ -15,8 +15,7 @@ A brief introduction to Hotwire, Turbo, and Stimulus within Rails 7+
 ```js
 import {Controller} from "@hotwire/stimulus";
 
-// /controllers/example_controller.js
-export default class extends Controller {
+export default class extends Controller {//javascript/controllers/example_controller.js
 
   static values = {user: Object};
   static targets = ["results"];
@@ -34,10 +33,13 @@ export default class extends Controller {
 ```
 
 ```html
-  <div data-controller="example"
-       data-example-user-value="<%= @user.to_json %>"
+  <div 
+    data-controller="example"
+    data-example-user-value="<%= @user.to_json %>"
   >
+
     <div data-example-target="results">
     </div>
+
   </div>
 ```
