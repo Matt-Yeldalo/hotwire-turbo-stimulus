@@ -27,9 +27,9 @@ export default class extends Controller {
 
  disconnect() {} // Called anytime the controller is disconnected from the DOM
 
- resultTargetConnected(element) {} // Called anytime the results div target is connects to the DOM
+ resultTargetConnected(element) {} // Called anytime the results div target connects to the DOM
 
- resultTargetDisconnected(element) {} // Called anytime the results div target is disconnects from the DOM
+ resultTargetDisconnected(element) {} // Called anytime the results div target disconnects from the DOM
 }
 ```
 
