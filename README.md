@@ -13,7 +13,7 @@ A brief introduction to Hotwire, Turbo, and Stimulus within Rails 7+
 ## Stimulus Example
 
 ```js
-import { Controller } from '@hotwire/stimulus';
+import { Controller } from '@hotwired/stimulus';
 
 export default class extends Controller {
  // javascript/controllers/example_controller.js
